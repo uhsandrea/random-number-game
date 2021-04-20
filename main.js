@@ -2,7 +2,6 @@ const rangeInput = document.querySelector(".js-rangeInput");
 const maxRange = document.querySelector(".js-maxRange");
 const guessNumberInput = document.querySelector(".js-guessNumber");
 const playButton = document.querySelector("button");
-
 const numbersDescription = document.querySelector(".js-numbersDescription");
 const gameResult = document.querySelector(".js-gameResult");
 
