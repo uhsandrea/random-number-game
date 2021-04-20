@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Random Number Game</h1>
+    <h3>Generate a number between 0 and <span class="js-maxRange">10</span></h3>
+    <input
+      class="js-rangeInput"
+      type="range"
+      min="0"
+      max="200"
+      list="tickmarks"
+      value="10"
+    />
+    <datalist id="tickmarks">
+      <option value="0"></option>
+      <option value="50"></option>
+      <option value="100"></option>
+      <option value="150"></option>
+      <option value="200"></option>
+    </datalist>
+    <div>
+      <label for="guessNumber">Guess the number:</label>
+      <input id="guessNumber" class="js-guessNumber" type="number" />
+      <button type="button">Play!</button>
+    </div>
+    <div class="js-numbersDescription"></div>
+    <div class="js-gameResult gameResult"></div>
+    <script src="main.js"></script>
+  </body>
+</html>
